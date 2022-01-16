@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Head</title>
+</head>
+<body>
+    <p>The <code> tag is used to define a piece of computer code to be shown in the website.</p>
+    <p>The content inside is displayed in the browser's default monospace font.</p>
+    <p>Example:</p>
+    <p>
+        <!DOCTYPE html>
+            <html>
+                <head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Code Texts</title>
+                </head>
+                <body>
+                    <h1>C++ Simple Multiplication Table</h1>
+                    <p>Used nested for loops to make a 10 by 10 multiplication table in the terminal window.</p>
+                    <code>
+                        #include <iostream>
+                            #include <iomanip>
+                            using namespace std;
+                            
+                            int main(){
+                                const int sizeR = 10;
+                                const int sizeC = 10;
+                                int row, col;
+                            
+                                for(row = 1; row <= sizeR; row++){
+                                    for(col = 1; col <= sizeC; col++){
+                                        cout << left << setw(4) << row*col;
+                                    }
+                                    cout << endl;
+                                }
+                            }
+                    </code>
+                </body>
+            </html>
+    </p>
+</body>
+</html>
