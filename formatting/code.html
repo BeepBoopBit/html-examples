@@ -10,38 +10,38 @@
     <p>The <code> tag is used to define a piece of computer code to be shown in the website.</p>
     <p>The content inside is displayed in the browser's default monospace font.</p>
     <p>Example:</p>
-    <p>
-        <!DOCTYPE html>
-            <html>
-                <head>
-                    <meta charset="UTF-8">
-                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Code Texts</title>
-                </head>
-                <body>
-                    <h1>C++ Simple Multiplication Table</h1>
-                    <p>Used nested for loops to make a 10 by 10 multiplication table in the terminal window.</p>
-                    <code>
-                        #include <iostream>
-                            #include <iomanip>
-                            using namespace std;
-                            
-                            int main(){
-                                const int sizeR = 10;
-                                const int sizeC = 10;
-                                int row, col;
-                            
-                                for(row = 1; row <= sizeR; row++){
-                                    for(col = 1; col <= sizeC; col++){
-                                        cout << left << setw(4) << row*col;
-                                    }
-                                    cout << endl;
-                                }
+    <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Code Texts&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;C++ Simple Multiplication Table&lt;/h1&gt;
+            &lt;p&gt;Used nested for loops to make a 10 by 10 multiplication table in the terminal window.&lt;/p&gt;
+            &lt;code&gt;
+                #include &lt;iostream&gt;
+                    #include &lt;iomanip&gt;
+                    using namespace std;
+                    
+                    int main(){
+                        const int sizeR = 10;
+                        const int sizeC = 10;
+                        int row, col;
+                    
+                        for(row = 1; row &lt;= sizeR; row++){
+                            for(col = 1; col &lt;= sizeC; col++){
+                                cout &lt;&lt; left &lt;&lt; setw(4) &lt;&lt; row*col;
                             }
-                    </code>
-                </body>
-            </html>
-    </p>
+                            cout &lt;&lt; endl;
+                        }
+                    }
+            &lt;/code&gt;
+        &lt;/body&gt;
+    &lt;/html&gt;
+    </pre>
 </body>
 </html>
