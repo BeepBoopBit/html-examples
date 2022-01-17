@@ -1,0 +1,40 @@
+<!--
+    Created by: Paul Reonal
+    Date: 01/17/22
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meter</title>
+</head>
+<body>
+    <p>The <meter> tag is used to display a gauge.</p>
+    <p>In other words, this tag is used to display a scalar measurement within a known range, or to display<br>
+        fractional values.</p>
+    <p>Note:  The <meter> tag should not be used to indicate progress (as in a progress bar). For progress<br>
+        bars, use the <progress> tag.</p>
+    <p>Example:</p>
+    <P>
+        <!DOCTYPE html>
+            <html>
+                <head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Meter</title>
+                </head>
+                <body>
+                    <p>The meter element is used to display a gauge:</p>
+                        <label for="disk_c">Disk usage C:</label>
+                        <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br> <!-- Used <meter> tag for range-->
+
+                        <label for="disk_d">Disk usage D:</label>
+                        <meter id="disk_d" value="0.6">60%</meter> <!-- Used <meter> tag for fractional values-->
+                </body>
+            </html>
+    </p>
+</body>
+</html>
