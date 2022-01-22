@@ -7,32 +7,32 @@
     <title>Ruby</title>
 </head>
 <body>
-    <p>The <ruby> tag is for ruby annotations.</p>
+    <p>The <span style="color: red;">&lt;ruby&gt;</span> tag is for ruby annotations.</p>
     <p>Ruby characters are small, annotative characters placed above other text characters usually from<br>
         the Japanese "Kanji", Korean "Hanja", and Chinese "Hanzi". <!--Could italicize the words in " "-->
     </p>
     <p>
-        Use <ruby> together with <rt> and <rp>: The <ruby> element consists of one or more characters that<br>
-        needs an explanation/pronunciation, and an <rt> element that gives that information, and an<br>
-        optional <rp> element that defines what to show for browsers that do not support ruby<br>
+        Use <span style="color: red;">&lt;ruby&gt;</span> together with <span style="color: red;">&lt;rt&gt;</span> and <span style="color: red;">&lt;rp&gt;</span>: The <span style="color: red;">&lt;ruby&gt;</span> element consists of one or more characters that<br>
+        needs an explanation/pronunciation, and an <span style="color: red;">&lt;rt&gt;</span> element that gives that information, and an<br>
+        optional <span style="color: red;">&lt;rp&gt;</span> element that defines what to show for browsers that do not support ruby<br>
         annotations.
     </p>
     <p>Example:</p>
-    <p>
-        <!DOCTYPE html>
-            <html>
-                <head>
-                    <meta charset="UTF-8">
-                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Ruby</title>
-                </head>
-                <body>
-                    <ruby>
-                        漢 <rt> ㄏㄢˋ </rt>
-                       </ruby>
-                </body>
-            </html>
-    </p>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    &lt;title&gt;Ruby&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;ruby&gt;
+                        漢 &lt;rt&gt; ㄏㄢˋ &lt;/rt&gt;
+                        &lt;/ruby&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;
+    </pre>
 </body>
 </html>

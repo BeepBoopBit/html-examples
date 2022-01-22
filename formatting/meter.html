@@ -11,30 +11,30 @@
     <title>Meter</title>
 </head>
 <body>
-    <p>The <meter> tag is used to display a gauge.</p>
+    <p>The <span style="color: red;">&lt;meter&gt;</span> tag is used to display a gauge.</p>
     <p>In other words, this tag is used to display a scalar measurement within a known range, or to display<br>
         fractional values.</p>
-    <p>Note:  The <meter> tag should not be used to indicate progress (as in a progress bar). For progress<br>
-        bars, use the <progress> tag.</p>
+    <p>Note:  The <span style="color: red;">&lt;meter&gt;</span> tag should not be used to indicate progress (as in a progress bar). For progress<br>
+        bars, use the <span style="color: red;">&lt;progress&gt;</span> tag.</p>
     <p>Example:</p>
-    <P>
-        <!DOCTYPE html>
-            <html>
-                <head>
-                    <meta charset="UTF-8">
-                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Meter</title>
-                </head>
-                <body>
-                    <p>The meter element is used to display a gauge:</p>
-                        <label for="disk_c">Disk usage C:</label>
-                        <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br> <!-- Used <meter> tag for range-->
+    <pre>
+        &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    &lt;title&gt;Meter&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;p>The meter element is used to display a gauge:&lt;/p&gt;
+                        &lt;label for="disk_c">Disk usage C:&lt;/label&gt;
+                        &lt;meter id="disk_c" value="2" min="0" max="10"&gt;2 out of 10&lt;/meter&gt;&lt;br&gt; <!-- Used <meter> tag for range-->
 
-                        <label for="disk_d">Disk usage D:</label>
-                        <meter id="disk_d" value="0.6">60%</meter> <!-- Used <meter> tag for fractional values-->
-                </body>
-            </html>
-    </p>
+                        &lt;label for="disk_d">Disk usage D:&lt;/label&lt;
+                        &lt;meter id="disk_d" value="0.6">60%&lt;/meter&lt; <!-- Used <meter> tag for fractional values-->
+                &lt;/body&lt;
+            &lt;/html&lt;
+    <pre>
 </body>
 </html>
