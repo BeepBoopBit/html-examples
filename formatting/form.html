@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <p>The <span style="color: red;">&lt;form&gt;</span> tag represents a document section containing interactive controls for submitting information.</p>
+    <p>The interactive controls of this tags could contain:</p>
+        <pre>
+            &lt;input&gt;
+            &lt;textarea&gt;
+            &lt;button&gt;
+            &lt;select&gt;
+            &lt;option&gt;
+            &lt;optgroup&gt;
+            &lt;fieldset&gt;
+            &lt;label&gt;
+            &lt;output&gt;
+        </pre>
+    <p>Example:</p>
+        <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    &lt;title&gt;Form &lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;form action="/action_page.php"&gt;
+                        &lt;label for="fname">First name:&lt;/label&gt;
+                        &lt;input type="text" id="fname" name="fname"&gt;&lt;br&gt;
+                        &lt;label for="lname">Last name:&lt;/label&gt;
+                        &lt;input type="text" id="lname" name="lname"&gt;&lt;br&gt;
+                        &lt;input type="submit" value="Submit"&gt;
+                      &lt;/form&gt;
+                      
+                      &lt;p&gt;Click the "Submit" button and the form-data will be sent to a page on the 
+                      server called "action_page.php".&lt;/p&gt;
+                 &lt;/body&gt;
+             &lt;/html&gt;
+        </pre>
+    </body>
+</html>
