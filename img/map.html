@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>map</title>
+</head>
+<body>
+    <p>The &lt;map&gt; tag is used to define an image map. An image map is an image with clickable areas</p>
+    <p>The required name attribute of the &lt;map&gt; element is associated with the &lt;img&gt;'s use map attribute and creates a relationship between the image and the map</p>
+    <p>The &lt;map&gt; element contains a number of &lt;area&gt; elements, that defines the clickable areas in the image map.</p>
+    <img src="../images/title-img-example.png" alt="EXAMPLE" usemap="#workmap" width="400" height="379">
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,340" href="https://google.com" alt="google">
+        <area shape="rect" coords="290,172,333,250" href="https://youtube.com" alt="youtube">
+        <area shape="circle" coords="337,300,44" href="https://facebook.com" alt="facebook">
+    </map>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;map name="workmap"&gt;
+                &lt;area shape="rect" coords="34,44,270,340" href="https://google.com" alt="google"&gt;
+                &lt;area shape="rect" coords="290,172,333,250" href="https://youtube.com" alt="youtube"&gt;
+                &lt;area shape="circle" coords="337,300,44" href="https://facebook.com" alt="facebook"&gt;
+            &lt;/map&gt;
+            &lt;/body&gt; 
+
+        &lt;/html&gt;
+    </pre>
+</body>
+</html>
