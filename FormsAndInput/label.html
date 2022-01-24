@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>label</title>
+</head>
+<body>
+    <p>the &lt;label&gt; tag defines a label for several elements</p>
+    <p>Proper use of labels with the supported elements will benefit in:</p>
+    <ul>
+        <li><p>Screen readers users (will read out loud the label, when the user is focused on the element)</p></li>
+        <li><p>Users who have difficulty clicking on very small regions (such as checkboxes) - because when a user clicks the text within the &lt;label&gt; element, it toggles the input (this increase the hit area)</p></li>
+    </ul>
+    <form action="">
+        <input type="radio" id="html" name="stuff" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="stuff" value="HTML">
+        <label for="css">CSS</label><br>
+    </form>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;form action=""&gt;
+                &lt;input type="radio" id="html" name="stuff" value="HTML"&gt;
+                &lt;label for="html"&gt;HTML &lt;/label&gt;&lt;br&gt;
+                &lt;input type="radio" id="css" name="stuff" value="HTML"&gt;
+                &lt;label for="css"&gt;CSS &lt;/label&gt;&lt;br&gt;
+            &lt;/form&gt;
+            &lt;/body&gt; 
+        &lt;/html&gt;
+    </pre>
+</body>
+</html>
