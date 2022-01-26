@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colgroup</title>
+</head>
+<body>
+    <p>The &lt;colgroup&gt; specifies a group of one or more columns in a table for formatting.</p>
+    <p>The &lt;colgroup&gt; tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.</p>
+    <p><strong>Note:</strong> the &lt;colgroup&gt; tag must be a child of a &lt;table&gt; element, after any &lt;caption&gt; element and before any &lt;thead&gt;, &lt;tbody&gt;, &lt;tfoot&gt;, and &lt;tr&gt; elements.</p>
+    <p><strong>Tip:</strong> To define different properties to a column within a &lt;colgroup&gt;, use the &lt;col&gt; tag within t he &lt;colgroup&gt; tag</p>
+    <table>
+        <colgroup>
+            <col span="2" style="background-color:red">
+            <col style="background-color:yellow">
+        </colgroup>
+        <tr>
+            <th>ISBN</th>
+            <th>Title</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>1234</td>
+            <td>HTML</td>
+            <td>$100</td>
+        </tr>
+    </table>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;table&gt;
+                    &lt;colgroup&gt;
+                        &lt;col span="2" style="background-color:red"&gt;
+                        &lt;col style="background-color:yellow"&gt;
+                    &lt;/colgroup&gt;
+                    &lt;tr&gt;
+                        &lt;th&gt;ISBN&lt;/th&gt;
+                        &lt;th&gt;Title&lt;/th&gt;
+                        &lt;th&gt;Price&lt;/th&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;1234&lt;/td&gt;
+                        &lt;td&gt;HTML&lt;/td&gt;
+                        &lt;td&gt;$100&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/body&gt; 
+
+        &lt;/html&gt;
+    </pre>
+</body>
+</html>
