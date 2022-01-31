@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>select</title>
+</head>
+<body>
+    <p>The &lt;select&gt; element is used to create a drop-down list.</p>
+    <p>The &lt;select&gt; element is most often used in form, to collect user input.</p>
+    <p>The <em>name</em> attribute is needed to reference the form data after the form is submitted
+    (if you omit the <em>name</em> attribute, no data from the drop-down list will be submitted).</p>
+    <p>The <em>id</em> attribute is needed to associate the drop-down list with a label.</p>
+    <p>The &lt;option&gt; tags inside the &lt;select&gt; element define the available option in the drop-down list.</p>
+    <p><strong>Tip:</strong> Always add the &lt;label&gt; tag for best accessibility practices!</p>
+    <label for="cars">Choose a car:</label>
+
+    <select name="cars" id="cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </select>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;label for="cars"&gt;Choose a car:&lt;/label&gt;
+
+            &lt;select name="cars" id="cars"&gt;
+              &lt;option value="volvo"&gt;Volvo&lt;/option&gt;
+              &lt;option value="saab"&gt;Saab&lt;/option&gt;
+              &lt;option value="mercedes"&gt;Mercedes&lt;/option&gt;
+              &lt;option value="audi"&gt;Audi&lt;/option&gt;
+            &lt;/select&gt;
+            &lt;/body&gt; 
+
+        &lt;/html&gt;
+    </pre>
+</body>
+</html>
