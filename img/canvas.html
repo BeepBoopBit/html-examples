@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvas</title>
+</head>
+
+<body>
+    <p>The &lt;canvas&gt; tag is used to draw graphics, on the fly, via scripting (usually JavaScript).</p>
+    <p>The &lt;canvas&gt; tag is transparent, and is only a container for graphics, you must use a script to actually
+        draw the graphics.</p>
+    <p>Any text inside the &lt;canvas&gt; element will be displayed in browsers with JavaScript disabled and in browsers
+        that do not support &lt;canvas&gt;</p>
+    <canvas id="myCanvas">
+        Your browser does not support the canvas tag.
+    </canvas>
+
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(0, 0, 80, 80);
+    </script>
+    <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                &lt;canvas id="myCanvas"&lt;
+                    Your browser does not support the canvas tag.
+                &lt;/canvas&lt;
+            
+                &lt;script&lt;
+                    var canvas = document.getElementById("myCanvas");
+                    var ctx = canvas.getContext("2d");
+                    ctx.fillStyle = "#FF0000";
+                    ctx.fillRect(0, 0, 80, 80);
+                &lt;/script&lt;
+                &lt;/body&gt; 
+    
+            &lt;/html&gt;
+    </pre>
+</body>
+
+</html>
