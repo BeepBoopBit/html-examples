@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>datalist</title>
+</head>
+
+<body>
+    <p>The &lt;datalist&gt; tag specifies a list of pre-defined option for an &lt;input&gt; element.</p>
+    <p>The &lt;datalist&gt; tag is used to provide an "autocomplete" feature for &lt;input&gt; element. Users will see a
+        drop-down list of pre-defined options as they input data.</p>
+    <p>The &lt;datalist&gt; element's id attribute must be equal to the &lt;input&gt; element's list attribute (this
+        binds them together)</p>
+    <label for="browser">Choose your browser from the list:</label>
+    <input list="browsers" name="browser" id="browser">
+
+    <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;label for="browser"&gt;Choose your browser from the list:&lt;/label&gt;
+            &lt;input list="browsers" name="browser" id="browser"&gt;
+            
+            &lt;datalist id="browsers"&gt;
+              &lt;option value="Edge"&gt;
+              &lt;option value="Firefox"&gt;
+              &lt;option value="Chrome"&gt;
+              &lt;option value="Opera"&gt;
+              &lt;option value="Safari"&gt;
+            &lt;/datalist&gt;
+            &lt;/body&gt; 
+
+        &lt;/html&gt;
+    </pre>
+</body>
+
+</html>
