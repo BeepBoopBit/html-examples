@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audio</title>
+</head>
+<body>
+    <p>The &lt;audio&gt; t ag is used to embed sound content in a document, such as music or other audio streams.</p>
+    <p>The &lt;audio&gt; tag contains one or more &lt;srouce&gt; tags with different audio sources. The browser will choose the first source it supports.</p>
+    <p>The text between the &lt;audio&gt; and &lt;/audio&gt; tags will only be displayed in browser that do not support the &lt;audio&gt; element.</p>
+    <p>There are three supported audio formats in HTML: MP3, WAV, and OGG.</p>
+    <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;audio controls&gt;
+                &lt;source src="horse.ogg" type="audio/ogg"&gt;
+                &lt;source src="horse.mp3" type="audio/mpeg"&gt;
+                Your browser does not support the audio tag.
+            &lt;/audio&gt;        
+            &lt;/body&gt; 
+        &lt;/html&gt;
+    </pre>
+
+</body>
+</html>
