@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>col</title>
+</head>
+<body>
+    <p>The &lt;col&gt; tag specifies column properties for each column within a &lt;colgroup&gt; element.</p>
+    <p>The &lt;col&gt; tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.</p>
+    <table>
+        <colgroup>
+          <col span="2" style="background-color:red">
+          <col style="background-color:yellow">
+        </colgroup>
+        <tr>
+          <th>ISBN</th>
+          <th>Title</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>3476896</td>
+          <td>My first HTML</td>
+          <td>$53</td>
+        </tr>
+    </table>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;table&gt;
+                &lt;colgroup&gt;
+                  &lt;col span="2" style="background-color:red"&gt;
+                  &lt;col style="background-color:yellow"&gt;
+                &lt;/colgroup&gt;
+                &lt;tr&gt;
+                  &lt;th&gt;ISBN&lt;/th&gt;
+                  &lt;th&gt;Title&lt;/th&gt;
+                  &lt;th&gt;Price&lt;/th&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                  &lt;td&gt;3476896&lt;/td&gt;
+                  &lt;td&gt;My first HTML&lt;/td&gt;
+                  &lt;td&gt;$53&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;/body&gt; 
+        &lt;/html&gt;
+    </pre>
+</body>
+</html>
