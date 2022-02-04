@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>track</title>
+</head>
+<body>
+    <p>The &lt;track&gt; tag specifies text tracts for &lt;audio&gt; or &lt;video&gt; elements.</p>
+    <p>this element is used to specif subtitles, caption files or other files containing text, that should be visible when the media is playing</p>
+    <p>Tracks are formatted in WebVTT format (.vtt files)</p>
+    <video width="320" height="240" controls>
+        <source src="forrest_gump.mp4" type="video/mp4">
+        <source src="forrest_gump.ogg" type="video/ogg">
+        <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+        <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+    </video>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;video width="320" height="240" controls&gt;
+                &lt;source src="movie.mp4" type="video/mp4"&gt;
+                &lt;source src="movie.ogg" type="video/ogg"&gt;
+                Your browser does not support the video tag.
+                &lt;track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English"&lt;
+                &lt;track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian"&lt;
+                &lt;/video&gt;
+            &lt;/body&gt; 
+        &lt;/html&gt;
+    </pre>
+</body>
+</html>
